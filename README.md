@@ -1,1 +1,1 @@
-# cypress-demo
+# cypress-example

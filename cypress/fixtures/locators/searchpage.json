@@ -1,0 +1,7 @@
+{
+
+    "select_search" : ".bigsearch-toggle",
+    "actual_search" : ".search-form-button",
+    "results_page" : ".search-results"
+
+}

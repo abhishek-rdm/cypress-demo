@@ -1,0 +1,6 @@
+{
+
+     "search_button":"[data-aa-region=\"About\"] > .dropdown-alignment > .dropdown-trigger",
+     "click_about_us" : ".expanded > .dropdown-alignment > .dropdown > .dropdown-inner > ul > :nth-child(1) > a",
+     "verify_text": ":nth-child(3) > .large-12 > :nth-child(2)"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "open": "cypress open",
+    "chromeTest": "npm run test -- --env configFile=qa --spec 'cypress/integration/examples/elsevier/searchPage.js' --browser chrome --record --key 0c0b9cbd-2d14-4d24-bdf5-7fded7350f9a",
+    "recordDashBoardTest": "npm run test -- --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochawesome",
+    "GreenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\" --headless -b chrome --parallel --record --ci-build-id=ab123"
+  },
+  "author": "Abhishek Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.7.0",
+    "mochawesome": "^6.1.0"
+  }
+}
